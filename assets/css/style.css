@@ -500,14 +500,14 @@ img {
 .skills__bar {
     background-color: var(--first-color-lighter);
 }
-
+/*
 .skills__percentage {
     display: block;
     background-color: var(--first-color);
 }
 
 .skills__html {
-    width: 50%;
+    width: 70%;
 }
 
 .skills__css {
@@ -519,7 +519,7 @@ img {
 }
 
 .skills__java {
-    width: 50%;
+    width: 70%;
 }
 
 .skills__python {
@@ -530,18 +530,22 @@ img {
     width: 50%;
 }
 
+.skills__xd {
+    width: 80%;
+}
+
 .skills__photoshop {
     width: 95%;
 }
 
 .skills__illust {
-    width: 85%;
+    width: 90%;
 }
 
 .skills__premiere {
-    width: 60%;
+    width: 90%;
 }
-
+*/
 .skills__close .skills__list {
     height: 0;
     overflow: hidden;
@@ -797,8 +801,46 @@ img {
 
 
 /*==================== PROJECT IN MIND ====================*/
-/*==================== TESTIMONIAL ====================*/
 
+/*==================== TESTIMONIAL ====================*/
+.testimonial__data,
+.testimonial__header {
+    display: flex;
+}
+
+.testimonial__data {
+    justify-content: space-between;
+    margin-bottom: var(--mb-1);
+}
+
+.testimonial__img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: var(--mb-0-75);
+}
+
+.testimonial__name {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+}
+
+.testimonial__client {
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+}
+
+.testimonial__description {
+    margin-bottom: var(--mb-2-5);
+}
+
+.testimonial__icon-star {
+    color: var(--first-color)
+}
+
+.swiper-container .swiper-pagination-testimonial {
+    bottom: 0;
+}
 /*==================== CONTACT ME ====================*/
 .contact__container {
     row-gap: 3rem;
