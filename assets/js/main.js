@@ -88,7 +88,7 @@ modalBtns.forEach((modalBtn, i) => {
     })
 })
 
-   //There is an issue, Can't close
+//There is an issue, Can't close
 modalCloses.forEach((modalClose) => {
     modalClose.addEventListener('click', () => {
         modalViews.forEach((modalView) => {
