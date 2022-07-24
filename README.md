@@ -15,4 +15,6 @@
 - Swift JavaScript
 
 ## :computer: Live Demo
-https://jennielee.netlify.app/
+![Lab6_HyunjuLee_Website](https://user-images.githubusercontent.com/97131199/180634234-66861649-c860-49a2-9964-eb944d7a0377.jpg)
+https://jennielee.netlify.app/ <br>
+:point_up: Click to see the Jennie's portfolio website
