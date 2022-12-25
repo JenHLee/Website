@@ -746,9 +746,13 @@ img {
 }
 
 .portfolio__img {
-    width: 265px;
+    width: 280px;
     border-radius: .5rem;
     justify-self: center;
+    box-shadow:
+    11.3px 12.5px 10px rgba(0, 0, 0, 0.02),
+    90px 100px 80px rgba(0, 0, 0, 0.04)
+  ;
 }
 
 .portfolio__title {
